@@ -2,7 +2,7 @@
 let number = 7;
 let flag = true;
 for(let i = 2; i < number; i++) {
-	if(number % i == 0) {
+	if(number % i === 0) {
 		flag = false;
 		break;
 	}
